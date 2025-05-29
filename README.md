@@ -66,6 +66,9 @@ Después, se creó un bucket en Amazon S3, el sistema de almacenamiento en la nu
 
 Esta estructura permite separar claramente los datos originales de los resultados del pipeline, siguiendo buenas prácticas de almacenamiento en entornos cloud.
 
+![1 (2)](https://github.com/user-attachments/assets/9fa637ac-3d54-4521-97c3-e255a5c3b38a)
+
+
 **2. Creación del catálogo de datos con AWS Glue Crawler**
 
 Una vez almacenados los archivos en Amazon S3, el siguiente paso fue automatizar la detección de su estructura para poder trabajar con ellos como si fueran tablas en una base de datos. Para ello, se utilizó AWS Glue Crawler, una herramienta que permite escanear datos en S3 y catalogarlos automáticamente.
@@ -96,7 +99,9 @@ Tras ejecutar el crawler, se generaron dos tablas en una base de datos Glue llam
 
 Gracias a este paso, los archivos ya no son simplemente documentos sueltos en un sistema de archivos, sino datasets estructurados y gestionables desde el ecosistema cloud de AWS, preparados para ser transformados y analizados.
 
-​
+​![2](https://github.com/user-attachments/assets/934a1688-7749-483f-adb6-55e2d0cbaa2c)
+
+
 **3. Limpieza y transformación visual con AWS Glue DataBrew**
 
 Una vez catalogados los datos, se procedió a la fase central del pipeline: la limpieza, validación y transformación visual de los datasets usando AWS Glue DataBrew. Esta herramienta permite aplicar reglas de calidad y transformaciones complejas de forma visual, sin necesidad de escribir código, ideal para flujos ETL accesibles y replicables.
@@ -127,6 +132,8 @@ En paralelo, se creó un segundo proyecto sobre la tabla logistica_csv, centrado
 
 Gracias a estas transformaciones, se pueden analizar métricas como la puntualidad logística o la eficiencia por repartidor o ruta.
 
+![3](https://github.com/user-attachments/assets/7495db43-d45b-43b1-ac56-10beadcf03a0)
+
 
 **4: Exportación del dataset limpio a S3**
 
@@ -141,6 +148,9 @@ Se crearon dos trabajos independientes, uno para cada proyecto:
 - Job de logística: ejecutó la receta con el cálculo de tiempo_entrega_dias y la clasificación de entregas como “A tiempo” o “Retrasadas”.
 
 Cada job tomó los datos originales desde /raw/, aplicó las transformaciones configuradas y generó automáticamente un nuevo archivo limpio.
+
+![4](https://github.com/user-attachments/assets/0bb95e84-cb8f-4afa-bb65-032fa611eb76)
+
 
 **5. Automatización del pipeline**
 
@@ -170,6 +180,9 @@ Tras la ejecución del crawler, se activa automáticamente el job de AWS Glue Da
 4. Generación y almacenamiento del dataset limpio
 ​
 Una vez transformados, los datos limpios se exportan automáticamente a la carpeta /processed/ del bucket S3, manteniendo la estructura organizada y separada por área (ventas y logística). Estos archivos están listos para ser consumidos por herramientas de análisis como Power BI o integrarse en otros sistemas de reporting.
+
+![ultsi](https://github.com/user-attachments/assets/ace384cd-13ca-4a21-a04a-4bd3387bd969)
+
 
 **6. Preparado para escalar**
 
