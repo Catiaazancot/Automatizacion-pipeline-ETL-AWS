@@ -1,6 +1,6 @@
 # Intramove: Automatización del flujo de datos operativos con AWS Glue DataBrew
 ## Beneficios estratégicos de implementar un pipeline en Intramove
-En este proyecto diseñé y puse en marcha un flujo automatizado de trabajo con datos, también conocido como 'pipeline'. De forma sencilla, se trata de una secuencia de pasos que permite recoger datos brutos, limpiarlos, organizarlos y dejarlos listos para ser analizados sin tener que hacerlo manualmente cada vez.
+En este proyecto diseñé y puse en marcha un **flujo automatizado de trabajo con datos**, también conocido como 'pipeline'. De forma sencilla, se trata de una secuencia de pasos que permite **recoger datos brutos, limpiarlos, organizarlos y dejarlos listos para ser analizados sin tener que hacerlo manualmente cada vez.**
 
 Este proceso, que funciona en la nube, simula lo que una empresa real de logística como Intramove haría a diario con sus datos de ventas y entregas: recibir archivos, revisarlos, corregirlos si es necesario, calcular métricas importantes y guardarlos preparados para sacar conclusiones y tomar decisiones.
 
@@ -16,29 +16,29 @@ A continuación, resumo los beneficios concretos que este tipo de sistema puede 
 | Integración con toda la arquitectura AWS. Se apoya en servicios como: S3 (almacenamiento), Glue (catálogo), IAM (seguridad). Es fácil integrarlo luego con Redshift, Athena o SageMaker. | Base sólida para una futura analítica avanzada o inteligencia artificial logística. |
 
 ## Habilidades demostradas en este proyecto
-- Conciencia del impacto en negocio: Foco constante en la automatización y el ahorro de tiempo, reduciendo tareas manuales repetitivas mediante un flujo de trabajo visual, reproducible y escalable. 
+- **Conciencia del impacto en negocio**: Foco constante en la automatización y el ahorro de tiempo, reduciendo tareas manuales repetitivas mediante un flujo de trabajo visual, reproducible y escalable. 
 
-- Fundamentos de ingeniería de datos y flujo ETL: Aplicación de un proceso ETL completo en entorno cloud. Comprensión y diseño del flujo: ingesta (Extract), limpieza y transformación (Transform), y exportación estructurada para análisis (Load).
+- **Fundamentos de ingeniería de datos y flujo ETL**: Aplicación de un proceso ETL completo en entorno cloud. Comprensión y diseño del flujo: ingesta (Extract), limpieza y transformación (Transform), y exportación estructurada para análisis (Load).
 
-- Automatización y eficiencia de procesos: Configuración de flujos que simulan automatizaciones reales: recepción diaria de archivos brutos, ejecución de trabajos de transformación y generación de salidas listas para análisis.
+- **Automatización y eficiencia de procesos**: Configuración de flujos que simulan automatizaciones reales: recepción diaria de archivos brutos, ejecución de trabajos de transformación y generación de salidas listas para análisis.
 
-- Calidad, validación y gobernanza del dato: Aplicación de buenas prácticas en la limpieza y validación: detección de inconsistencias, eliminación de duplicados y transformaciones estandarizadas, asegurando la integridad del dato.​​​​​
+- **Calidad, validación y gobernanza del dato**: Aplicación de buenas prácticas en la limpieza y validación: detección de inconsistencias, eliminación de duplicados y transformaciones estandarizadas, asegurando la integridad del dato.​​​​​
 
-- Uso de tecnologías cloud y herramientas visuales: Diseño e implementación de un pipeline completo en AWS, utilizando: Amazon S3 para almacenamiento estructurado, AWS Glue para catalogación automatizada, AWS Glue DataBrew para limpieza y transformación. 
+- **Uso de tecnologías cloud y herramientas visuales**: Diseño e implementación de un pipeline completo en AWS, utilizando: Amazon S3 para almacenamiento estructurado, AWS Glue para catalogación automatizada, AWS Glue DataBrew para limpieza y transformación. 
 
 ## Propósito y contexto del proyecto
 
-Este proyecto tiene como objetivo diseñar y poner en marcha un flujo automatizado de tratamiento de datos en la nube para IntraMove, una empresa logística ficticia que gestiona entregas y ventas diarias.
+Este proyecto tiene como objetivo **diseñar y poner en marcha un flujo automatizado de tratamiento de datos en la nube** para IntraMove, una empresa logística ficticia que gestiona entregas y ventas diarias.
 
 En su actividad habitual, esta empresa recibe archivos con información sobre pedidos y entregas, normalmente sin procesar, con formatos inconsistentes o errores. Procesar estos datos manualmente supone un consumo elevado de tiempo y recursos, además de un mayor riesgo de errores humanos.
 
 Para abordar este desafío, se construyó un pipeline de datos visual en AWS que permite:
 
-- Recoger los archivos brutos automáticamente desde almacenamiento en la nube.
+- **Recoger los archivos brutos automáticamente** desde almacenamiento en la nube.
 
-- Aplicar transformaciones y limpieza estructurada: cálculo de métricas, corrección de formatos, creación de nuevas variables.
+- **Aplicar transformaciones y limpieza estructurada**: cálculo de métricas, corrección de formatos, creación de nuevas variables.
 
-- Generar archivos limpios y organizados, listos para análisis con herramientas de BI o lenguajes como Python.
+- **Generar archivos limpios y organizados**, listos para análisis con herramientas de BI o lenguajes como Python.
 
 Esta solución está orientada a la mejora operativa, permitiendo a IntraMove disponer de datos fiables y actualizados sin depender de tareas manuales, y ofreciendo una base sólida para futuros procesos de analítica avanzada.
 
@@ -198,31 +198,31 @@ Una vez transformados, los datos limpios se exportan automáticamente a la carpe
 
 Este proyecto ha sido una oportunidad para simular una solución de datos completa y aplicable a un entorno empresarial real. La experiencia ha demostrado cómo un flujo de datos bien estructurado y automatizado puede convertirse en un activo estratégico para cualquier empresa.
 
-Desde el primer paso —la preparación y catalogación de los datos— hasta la automatización del pipeline, el enfoque se ha mantenido firme en resolver una necesidad operativa concreta: transformar de manera automatizada datos dispersos y en bruto en información confiable, actualizada y lista para análisis.
+Desde el primer paso —la preparación y catalogación de los datos— hasta la automatización del pipeline, el enfoque se ha mantenido firme en resolver una necesidad operativa concreta: **transformar de manera automatizada datos dispersos y en bruto en información confiable, actualizada y lista para análisis.**
 
 Valor aportado al negocio:
-- Reducción drástica del trabajo manual, al eliminar tareas repetitivas de limpieza y validación.
+- **Reducción drástica del trabajo manual**, al eliminar tareas repetitivas de limpieza y validación.
 
-- Agilidad y rapidez en la toma de decisiones, al contar con datos actualizados automáticamente.
+- **Agilidad y rapidez en la toma de decisiones**, al contar con datos actualizados automáticamente.
 
-- Mayor control logístico, gracias a la capacidad de medir el tiempo de entrega, la puntualidad y el rendimiento de las operaciones.
+- **Mayor control logístico**, gracias a la capacidad de medir el tiempo de entrega, la puntualidad y el rendimiento de las operaciones.
 
-- Sostenibilidad técnica, al construir una arquitectura escalable en la nube que no depende de programación compleja ni recursos técnicos avanzados.​
+- **Sostenibilidad técnica**, al construir una arquitectura escalable en la nube que no depende de programación compleja ni recursos técnicos avanzados.​
 
 ​
 
 Aprendizajes personales
 
 ​
-Como analista de datos en formación, este proyecto me ha permitido afianzar conocimientos clave relacionados con la ingeniería de datos y la analítica aplicada al negocio, entre ellos:
+Como analista de datos junior, este proyecto me ha permitido afianzar conocimientos clave relacionados con la ingeniería de datos y la analítica aplicada al negocio, entre ellos:
 
-- Diseñar un flujo ETL completo de forma visual y estructurada.
+- **Diseñar un flujo ETL** completo de forma visual y estructurada.
 
-- Aplicar buenas prácticas de calidad y validación del dato.
+- Aplicar **buenas prácticas de calidad y validación del dato.**
 
-- Utilizar servicios cloud como S3, Glue y DataBrew de forma coordinada.
+- Utilizar servicios cloud como **S3, Glue y DataBrew** de forma coordinada.
 
-- Pensar como analista pero también como empresa: cómo ahorrar tiempo, minimizar errores y aumentar el valor de los datos.
+- **Pensar como analista pero también como empresa**: cómo ahorrar tiempo, minimizar errores y aumentar el valor de los datos.
 
 
 ## Contacto
