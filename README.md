@@ -227,6 +227,11 @@ Como analista de datos junior, este proyecto me ha permitido afianzar conocimien
 
 ## Contacto
 
+Portafolio: https://catiaazancotc.wixsite.com/catalina-azancot
+
+Linkedin: https://www.linkedin.com/in/catalina-data/
+
+Email: catalina.data1@gmail.com
 
 
 
